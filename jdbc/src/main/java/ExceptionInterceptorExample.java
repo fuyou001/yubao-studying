@@ -23,7 +23,7 @@ public class ExceptionInterceptorExample {
             System.out.println("Demonstration of exception handling.");
 
             Properties props = new Properties();
-            props.setProperty("exceptionInterceptors", "demo.connectorj.plugins.ExampleExceptionInterceptor");
+            props.setProperty("exceptionInterceptors", "plugins.ExampleExceptionInterceptor");
 
             conn = DemoConstants.getConnection(props);
 

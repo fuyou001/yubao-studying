@@ -20,7 +20,7 @@ public class LifecycleInterceptorExample {
         
         Connection conn = null;
         Properties props = new Properties();
-        props.setProperty("connectionLifecycleInterceptors", "demo.connectorj.plugins.ExampleLifecycleInterceptor");
+        props.setProperty("connectionLifecycleInterceptors", "plugins.ExampleLifecycleInterceptor");
         try {
             conn = DemoConstants.getConnection(props);
             

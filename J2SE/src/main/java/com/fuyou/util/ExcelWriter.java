@@ -71,7 +71,7 @@ public class ExcelWriter {
     }
 
     public static void main(String[] args) throws Exception {
-        String fileName = URLEncoder.encode("无线返佣订单", "utf-8") + "_"
+        String fileName = URLEncoder.encode("om", "utf-8") + "_"
                 + DateFormatUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss");
         //response.setContentType("application/msexcel;");
         //response.setHeader("Content-disposition", "attachment; filename=" + fileName + ".xls");

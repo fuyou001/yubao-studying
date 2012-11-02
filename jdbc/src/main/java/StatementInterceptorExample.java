@@ -20,7 +20,7 @@ public class StatementInterceptorExample {
         
         Connection conn = null;
         Properties props = new Properties();
-        props.setProperty("statementInterceptors", "demo.connectorj.plugins.ExampleStatementInterceptor");
+        props.setProperty("statementInterceptors", "plugins.ExampleStatementInterceptor");
         try {
             conn = DemoConstants.getConnection(props);
             ResultSet rs = conn.createStatement().executeQuery("SELECT 1");

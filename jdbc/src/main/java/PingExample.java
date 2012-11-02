@@ -25,6 +25,7 @@ public class PingExample {
             System.out.println("Setting session timeout to 1 second.");
             ResultSet rs = conn.createStatement().executeQuery("SHOW SESSION STATUS LIKE 'com_select'");
             rs.next();
+            System.out.println("name:"+rs.getString(1));
             System.out.println("SELECT count is: " + rs.getInt(2));
             rs = conn.createStatement().executeQuery("SHOW SESSION STATUS LIKE 'com_select'");
             rs.next();
