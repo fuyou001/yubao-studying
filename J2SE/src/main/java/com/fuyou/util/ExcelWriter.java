@@ -71,8 +71,16 @@ public class ExcelWriter {
     }
 
     public static void main(String[] args) throws Exception {
-        String fileName = URLEncoder.encode("om", "utf-8") + "_"
-                + DateFormatUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss");
+//        String agent = request.getHeader("User-Agent");
+//        boolean isMSIE = (agent != null && agent.indexOf("MSIE") != -1);
+//        String fileName = "无线返佣订单_"+ DateFormatUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss");
+//
+//        if (isMSIE) {
+//            fileName = URLEncoder.encode(fileName, charset);
+//        } else {
+//            fileName = new String(fileName.getBytes(charset), "ISO-8859-1");
+//        }
+
         //response.setContentType("application/msexcel;");
         //response.setHeader("Content-disposition", "attachment; filename=" + fileName + ".xls");
 
